@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+import app.config
 from app.config import  SQLALCHEMY_DATABASE_URI,SQLALCHEMY_TRACK_MODIFICATIONS
 from flask_sqlalchemy import SQLAlchemy
 from app.services.database_service.database_class import DocumentService
