@@ -176,6 +176,7 @@ pip install Flask Flask-SQLAlchemy nltk scikit-learn spellchecker mwparserfromhe
 2. Run the Flutter app: `flutter run`
 
 ## Project Structure
+```markdown
 IR-Search-Engine/
 ├── backend_simple_search_engine/ # Backend code (Flask)
 │ ├── app.py # Main Flask application file
@@ -192,10 +193,9 @@ IR-Search-Engine/
 │ └── pubspec.yaml # Flutter dependencies
 │
 ├── notebooks/ # Jupyter notebooks (optional)
-│ ├── jubyter_notebook.ipynb
-│ └── models # folder content tf-idf matrixes and vectorizers files
+│ └── jubyter_notebook.ipynb
 └── README.md # This file
-
+```
 ## Evaluation
 
 The performance of the search engine was evaluated using the following metrics:
