@@ -87,6 +87,7 @@ graph LR
         F[Document Service]
         G[Model Service]
         H[Database using MySQL] 
+        I[Files Storage]
     end
     A --> B
     B --> C
@@ -95,7 +96,7 @@ graph LR
     C --> F
     C --> G
     F --> H
-    G --> H
+    G --> I
 ```
 
 
